@@ -1,0 +1,24 @@
+.grid-center {
+  display: grid;
+  place-items: center;
+}
+.grid {
+  display: grid;
+  gap: 1em;
+}
+.grid-row {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  gap: 0.5em;
+}
+.grid-item-right {
+  justify-self: end;
+}
+.grid-item-left {
+  justify-self: start;
+}
+.grid-item-center {
+  justify-self: center;
+  align-self: center;
+}

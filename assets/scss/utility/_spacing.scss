@@ -1,0 +1,11 @@
+@use "../abstracts/functions" as functions;
+
+.padding-15 {
+  padding: functions.rem(15);
+}
+.padding-20 {
+  padding: functions.rem(20);
+}
+.padding-b-15 {
+  padding-bottom: functions.rem(15);
+}

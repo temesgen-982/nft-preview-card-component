@@ -1,0 +1,18 @@
+@use "../abstracts/functions" as functions;
+
+.border-white {
+  border: 1px solid var(--clr-white);
+}
+
+.border-b-primary-500 {
+  border-bottom: 1px solid var(--clr-primary-500);
+}
+
+// border-radius
+.br-10 {
+  border-radius: functions.rem(10);
+}
+
+.br-round {
+  border-radius: 50%;
+}

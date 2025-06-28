@@ -1,0 +1,5 @@
+@use "../abstracts/functions" as functions;
+
+.img-max-width-30 {
+  max-width: functions.rem(30);
+}

@@ -25,12 +25,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](assets/images/screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor](https://your-solution-url.com)
+- Live Site URL: [Github pages](https://temesgen-982.github.io/nft-preview-card-component/)
 
 ## My process
 
@@ -38,12 +38,10 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- SASS
+- CUBE CSS
 
 ### What I learned
 
@@ -51,10 +49,10 @@ Use this section to recap over some of your major learnings while working throug
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helps you see how CUBE CSS can actually help you
-- [Example resource 2](https://www.example.com) - CUBE CSS overview
+- [A look at the CUBE CSS methodology in action](https://www.youtube.com/watch?v=NanhQvnvbR8) - A video tutorial by Kevin Powell
+- [CUBE CSS](https://piccalil.li/blog/cube-css/) - CUBE CSS overview an article by Andy Bell
 
 ## Author
 
-- Frontend Mentor - [@temesgen-982](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@temesgen-982](https://www.frontendmentor.io/profile/temesgen-982)
+- Twitter - [@BeshowOnCode](https://x.com/BeshowOnCode)

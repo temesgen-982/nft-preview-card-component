@@ -26,12 +26,23 @@
   </head>
   <body class="[ grid-center ] [ bg-neutral-950 font-outfit ]">
     <div class="[ grid ] [ card ] [ bg-neutral-900 padding-20 br-10 ]">
-      <img
-        class="card__image br-10"
-        src="assets/images/image-equilibrium.jpg"
-        alt="Equilibrium"
-      />
-      <h2 class="[ card__title ] [ txt-white ]">Equilibrium #3429</h2>
+      <div class="img-wrapper br-10 img-cursor-pointer">
+        <div class="img-overlay br-10">
+          <a href="#"
+            ><img src="assets/images/icon-view.svg" alt="view image"
+          /></a>
+        </div>
+        <img
+          class="card__image br-10"
+          src="assets/images/image-equilibrium.jpg"
+          alt="Equilibrium"
+        />
+      </div>
+      <h2
+        class="[ card__title ] [ txt-white txt-hover-primary-400 txt-cursor-pointer ]"
+      >
+        Equilibrium #3429
+      </h2>
       <p class="txt-primary-500">
         Our Equilibrium collection promotes balance and calm.
       </p>
@@ -45,14 +56,17 @@
           <p>3 days left</p>
         </div>
       </div>
-      <div class="grid-row grid-item-left padding-b-15">
+      <div class="[ grid-row grid-item-left ] [ padding-b-15 ]">
         <img
           class="img img-max-width-30 br-round border-white"
           src="assets/images/image-avatar.png"
           alt=""
         />
         <p class="txt-primary-500">
-          Creation of <span class="txt-white">Jules Wyvern</span>
+          Creation of
+          <span class="txt-white txt-hover-primary-400 txt-cursor-pointer"
+            >Jules Wyvern</span
+          >
         </p>
       </div>
     </div>

@@ -2,6 +2,7 @@
   /* Primary */
   --clr-primary-500: hsl(215, 51%, 70%);
   --clr-primary-400: hsl(178, 100%, 50%);
+  --clr-primary-400-hover: hsla(178, 100%, 50%, 0.4);
   /* Neutral */
   --clr-neutral-950: hsl(217, 54%, 11%);
   --clr-neutral-900: hsl(216, 50%, 16%);
@@ -197,6 +198,14 @@ textarea:not([rows]) {
   font-weight: var(--fw-600);
 }
 
+.txt-hover-primary-400:hover {
+  color: var(--clr-primary-400);
+}
+
+.txt-cursor-pointer {
+  cursor: pointer;
+}
+
 .border-white {
   border: 1px solid var(--clr-white);
 }
@@ -217,8 +226,33 @@ textarea:not([rows]) {
   max-width: 1.875rem;
 }
 
+.img-cursor-pointer {
+  cursor: pointer;
+}
+
 .card {
   max-width: 350px;
+}
+
+.img-wrapper {
+  position: relative;
+}
+.img-wrapper .img-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--clr-primary-400-hover);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.img-wrapper:hover .img-overlay {
+  opacity: 3;
 }
 
 /*# sourceMappingURL=styles.css.map */
